@@ -103,7 +103,7 @@ img {
 
 /* subsurf */
 
-#brand {
+.brand {
   font-size: 28px;
   font-weight: 700;
   letter-spacing: -0.05em;
@@ -200,4 +200,10 @@ section {
   flex: 1 0 20rem;
   gap: 2rem;
   padding: 4rem 3rem;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  padding: 4rem;
 }

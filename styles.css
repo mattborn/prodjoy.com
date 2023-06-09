@@ -147,3 +147,31 @@ section {
   flex: 1;
   max-height: 15rem;
 }
+
+#logos {
+  background: #111;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  min-height: unset;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marquee {
+  animation: marquee 20s linear infinite;
+  display: flex;
+  gap: 4rem;
+  position: relative;
+  width: max-content;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}

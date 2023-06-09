@@ -1,9 +1,6 @@
-//github.com/markedjs/marked/releases/tag/v5.0.1
-marked.use({
-  headerIds: false,
-  mangle: false,
+ScrollReveal().reveal('section *', {
+  cleanup: true,
+  distance: '20%',
+  interval: 100,
+  origin: 'bottom',
 })
-
-fetch('./readme.md')
-  .then(response => response.text())
-  .then(text => (document.body.innerHTML = marked.parse(text)))

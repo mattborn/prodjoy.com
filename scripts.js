@@ -1,4 +1,5 @@
 const g = document.getElementById.bind(document)
+const q = document.querySelectorAll.bind(document)
 
 //github.com/markedjs/marked/releases/tag/v5.0.1
 marked.use({
@@ -18,5 +19,5 @@ ScrollReveal().reveal('#intro *', {
 })
 
 window.onscroll = () => {
-  g('gallery').style.marginLeft = `-${window.pageYOffset / 2}px`
+  q('.gallery')[0].style.marginLeft = `-${window.pageYOffset / 2}px`
 }

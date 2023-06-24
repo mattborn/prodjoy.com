@@ -15,17 +15,19 @@ body {
   text-rendering: geometricPrecision;
 }
 
-h1 {
-  font-size: 5rem;
+h1,
+h2 {
+  color: var(--title-color);
   letter-spacing: -0.03em;
   line-height: 1;
   margin: 0;
 }
+h1 {
+  font-size: 5rem;
+}
 
 h2 {
   font-size: 4rem;
-  letter-spacing: -0.03em;
-  line-height: 1.2;
 }
 
 /* subsurf */
@@ -37,13 +39,17 @@ h2 {
 }
 
 section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   min-height: 60vh;
-  padding: 2rem;
+  padding: 4rem;
+  text-align: center;
 }
 
 #intro {
   background: #fed;
-  text-align: center;
+  padding-bottom: unset;
 }
 .stack {
   align-items: center;
@@ -65,11 +71,6 @@ section {
   font-size: 1.5rem;
 }
 
-/* unique selling props */
-
-#usps {
-  text-align: center;
-}
 #usps svg {
   font-size: 4rem;
 }

@@ -75,13 +75,16 @@ img {
 
 #gallery {
   background: #fed;
-  display: flex;
-  gap: 1rem;
   min-height: unset;
   overflow: hidden;
-  padding: 2rem 0;
+  padding: 0 0 2rem;
+  width: 100vw;
 }
-#gallery > * {
+.gallery {
+  display: flex;
+  gap: 1rem;
+}
+.gallery > * {
   border-radius: 0.5rem;
   flex: 1;
   max-height: 15rem;
@@ -120,6 +123,12 @@ img {
 }
 #usps svg {
   font-size: 4rem;
+}
+
+#about .set,
+#about .quote {
+  align-items: flex-start;
+  text-align: left;
 }
 
 .set {

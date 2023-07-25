@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prodjoy - Product Management as a Subscription</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="staging.css" />
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script defer src="https://kit.fontawesome.com/0bef9420dc.js" crossorigin="anonymous"></script>
+    <script defer src="https://unpkg.com/marked/marked.min.js"></script>
+    <script defer src="https://unpkg.com/scrollreveal@4.0.7"></script>
+    <script defer src="scripts.js"></script>
+  </head>
+  <body>
+    <div id="staging">
+      <div id="staging-notes">
+        <div class="note">
+          <h3>Header</h3>
+        </div>
+      </div>
+      <div id="fake-body">
+        <section id="gallery">
+          <img
+            alt="Product @ Airbnb"
+            src="https://res.cloudinary.com/dlb7hetnl/image/upload/q_auto/v1686329594/prodjoy.com/airbnb.design-building-a-visual-language.jpg_fyvo5g.webp"
+          />
+          <img
+            alt="Product Design Lifecycle"
+            src="https://res.cloudinary.com/dlb7hetnl/image/upload/q_auto/v1686329317/prodjoy.com/dribbble.com-shots-15569363-Product-Design-Lifecycle-inside-the-Product-Development-Flow_moceyh.png"
+          />
+          <video
+            allowfullscreen
+            autoplay
+            loop
+            muted
+            playsinline
+            src="https://res.cloudinary.com/dlb7hetnl/video/upload/q_auto/v1686329221/prodjoy.com/dribbble.com-shots-17689232-How-we-work_tctyvi.mp4"
+          ></video>
+          <img
+            alt="Product @ Bigfoot"
+            src="https://res.cloudinary.com/dlb7hetnl/image/upload/q_auto/v1686329588/prodjoy.com/Bigfoot-3-Desktop-Chat_gjdlik.png"
+          />
+          <img
+            alt="Product Management Expert"
+            src="https://res.cloudinary.com/dlb7hetnl/image/upload/q_auto/v1686329316/prodjoy.com/dribbble.com-shots-6489106-Project-Management-App-UI.png_mukv0d.webp"
+          />
+        </section>
+        <section id="logos">
+          <div class="marquee">
+            <div>Airbnb</div>
+            <div>Bigfoot</div>
+            <div>Hopin</div>
+            <div>NASA</div>
+            <div>Outdoorsy</div>
+            <div>Pinterest</div>
+            <div>Thumbtack</div>
+            <div>Airbnb</div>
+            <div>Bigfoot</div>
+            <div>Hopin</div>
+            <div>NASA</div>
+            <div>Outdoorsy</div>
+            <div>Pinterest</div>
+            <div>Thumbtack</div>
+          </div>
+        </section>
+        <section>
+          <div class="quote">
+            <i class="fa-solid fa-quote-left"></i>
+            <blockquote>
+              Shane quickly understood what we are building and offered a unique lens on how we should be thinking
+              through our business dynamics. He offered a fresh take that was absolutely transformative for us! It was
+              not only unique and refreshing, but ended up unlocking our thinking around the most valuable thing for us
+              to do next.
+            </blockquote>
+            <div class="person">Jordyn, CoFounder & CTO</div>
+            <div class="brand">HollarHype</div>
+          </div>
+        </section>
+        <section>
+          <h1>Subscription details</h1>
+          <p class="lede">TODO: write this</p>
+          Explain process - Subheading: "Totally async." - Description of the asynchronous work style. - Mention of
+          managing designs with Trello. - Invitation for unlimited team members to submit requests and track progress.
+        </section>
+        <section>
+          <h1>Membership benefits</h1>
+          <p class="lede">TODO: write this</p>
+          <div class="button">See plans</div>
+          - Async collaboration - Add me to your team’s slack for advice and feedback for the whole team - Team
+          upskilling - designed to enhance the product management skills of founders or other early team members - Fresh
+          insights - Unbiased viewpoint can identify opportunities for improvement and offer innovative ideas that may
+          have been overlooked internally. - Increase velocity - Speed is your only advantage in a startup. I’ll help
+          you and your team move faster. - Reduce operational overhead - Gain immediate access to expertise without the
+          time and effort required to hire and onboard an individual. - Cost effective & predictable - Faster and more
+          cost-effective than hiring full-time. Pay the same price every month.
+        </section>
+        <section>
+          <div class="quote">
+            <i class="fa-solid fa-quote-left"></i>
+            <blockquote>
+              Shane’s insights have been super beneficial to my co-founder and I. He goes above and beyond with his time
+              to ensure we’re set up for success. It's been super helpful to have his support and guidance so early in
+              the business.
+            </blockquote>
+            <div class="person">Minju, CoFounder</div>
+            <div class="brand">SAE Coffee</div>
+          </div>
+        </section>
+        <section>
+          <h1>Recent work</h1>
+          <p class="lede">Speed to market, and nothing else.</p>
+          <img
+            alt="Product @ Airbnb"
+            src="https://res.cloudinary.com/dlb7hetnl/image/upload/q_auto/v1686329594/prodjoy.com/airbnb.design-building-a-visual-language.jpg_fyvo5g.webp"
+          />
+          <img
+            alt="Product Design Lifecycle"
+            src="https://res.cloudinary.com/dlb7hetnl/image/upload/q_auto/v1686329317/prodjoy.com/dribbble.com-shots-15569363-Product-Design-Lifecycle-inside-the-Product-Development-Flow_moceyh.png"
+          />
+          <img
+            alt="Product @ Bigfoot"
+            src="https://res.cloudinary.com/dlb7hetnl/image/upload/q_auto/v1686329588/prodjoy.com/Bigfoot-3-Desktop-Chat_gjdlik.png"
+          />
+          <img
+            alt="Product Management Expert"
+            src="https://res.cloudinary.com/dlb7hetnl/image/upload/q_auto/v1686329316/prodjoy.com/dribbble.com-shots-6489106-Project-Management-App-UI.png_mukv0d.webp"
+          />
+        </section>
+        <section>
+          <div class="quote">
+            <i class="fa-solid fa-quote-left"></i>
+            <blockquote>
+              Shane was instrumental in helping me navigate the consumer travel space. His non-judgmental approach to
+              problem solving makes him someone I’ve sought after to tackle the toughest challenges we’ve faced.
+            </blockquote>
+            <div class="person">Alexandra, CEO</div>
+            <div class="brand">Troupe</div>
+          </div>
+        </section>
+        <section>
+          <h2>Services</h2>
+          <ul>
+            <li>PRDs</li>
+            <li>User Research</li>
+            <li>Usability testing</li>
+            <li>Roadmapping</li>
+            <li>Scrum Master</li>
+            <li>Product Strategy</li>
+            <li>Mission/Vision work</li>
+            <li>Frameworks</li>
+            <li>Increase velocity</li>
+            <li>User stories</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Memberships levels</h2>
+          <p class="lede">Choose a plan that’s right for you.</p>
+          <div>
+            <h3>Product requests</h3>
+            <b>No stress or commitment. Pause or cancel anytime.</b> $1,500/m Get started Book a call Whats included: -
+            One task delivered at a time - Unlimited requests - Unlimited users - Product mentorship + upskilling for
+            the whole team - Easy credit-card payments - Pause or cancel anytime
+          </div>
+          <div>
+            <h3>Product requests + Slack</h3>
+            <b>No stress or commitment. Pause or cancel anytime.</b> $2,000/m Get started Book a call Whats included -
+            Async communication in Slack - One task delivered at a time - Unlimited requests - Unlimited users - Product
+            mentorship + upskilling for the whole team - Easy credit-card payments - Pause or cancel anytime
+          </div>
+        </section>
+        <section>
+          <div class="quote">
+            <i class="fa-solid fa-quote-left"></i>
+            <blockquote>
+              He quickly understand our product vision and give helpful and actionable advice on where we should head
+              next.
+            </blockquote>
+            <div class="person">Andrew, CoFounder & CEO</div>
+            <div class="brand">Stealth Startup</div>
+          </div>
+        </section>
+        <section>
+          <div id="faq" class="section white p-t-150">
+            <div class="container">
+              <h2 data-w-id="68473092-de01-5c15-12ef-7d075beb4576" style="opacity: 0">FAQs</h2>
+              <div data-w-id="c9b1f105-50eb-7aed-2e96-3ba9d79937c6" style="opacity: 0" class="faq__list-wrapper">
+                <div data-w-id="c9b1f105-50eb-7aed-2e96-3ba9d79937c7" class="faq__row">
+                  <div class="faq__left">
+                    <div class="faq__title">Why wouldn &#x27;t I just hire a full-time Product Manager?</div>
+                    <div style="display: none" class="faq__answer">
+                      Full-time Product Managers can cost over $180,000/year and take time, energy, and resources to
+                      recruit, hire, and train.
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.website-files.com/5837424ae11409586f837994/615935589047f98085c90963_arrow-down-1%201.svg"
+                    loading="lazy"
+                    style="
+                      -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
+                    "
+                    alt=""
+                    class="faq__arrow"
+                  />
+                </div>
+                <div data-w-id="5cd69e36-ecfd-3be9-3a25-5792a826acd6" class="faq__row">
+                  <div class="faq__left">
+                    <div class="faq__title">Is there a limit to how many requests I can have?</div>
+                    <div style="display: none" class="faq__answer">
+                      Once subscribed, you &#x27;re able to add as many product requests to your queue as you &#x27;d
+                      like, and they will be delivered one by one.
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.website-files.com/5837424ae11409586f837994/615935589047f98085c90963_arrow-down-1%201.svg"
+                    loading="lazy"
+                    style="
+                      -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
+                    "
+                    alt=""
+                    class="faq__arrow"
+                  />
+                </div>
+                <div data-w-id="c9b1f105-50eb-7aed-2e96-3ba9d79937ce" class="faq__row">
+                  <div class="faq__left">
+                    <div class="faq__title">What is the turnaround time?</div>
+                    <div style="display: none" class="faq__answer">
+                      Depending on the task, most things will be delivered within one to a few business days. Bigger
+                      requests may take slightly longer.
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.website-files.com/5837424ae11409586f837994/615935589047f98085c90963_arrow-down-1%201.svg"
+                    loading="lazy"
+                    style="
+                      -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
+                    "
+                    alt=""
+                    class="faq__arrow"
+                  />
+                </div>
+                <div data-w-id="c9b1f105-50eb-7aed-2e96-3ba9d79937d5" class="faq__row">
+                  <div class="faq__left">
+                    <div class="faq__title">Who will I be working with?</div>
+                    <div style="display: none" class="faq__answer">
+                      You &#x27;ll be working directly with Shane, the founder of Prodjoy. Shane has 10+ years of
+                      experience scaling hyper growth companies in Silicon Valley working with companies like — Airbnb,
+                      Pinterest, Thumbtack, Outdoorsy, and NASA.
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.website-files.com/5837424ae11409586f837994/615935589047f98085c90963_arrow-down-1%201.svg"
+                    loading="lazy"
+                    style="
+                      -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
+                    "
+                    alt=""
+                    class="faq__arrow"
+                  />
+                </div>
+                <div data-w-id="c9b1f105-50eb-7aed-2e96-3ba9d79937dc" class="faq__row">
+                  <div class="faq__left">
+                    <div class="faq__title">How does the pause product work?</div>
+                    <div style="display: none" class="faq__answer">
+                      I understand that your business needs may change so I want to offer flexibility. That’s where
+                      pausing your subscription comes in handy.
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.website-files.com/5837424ae11409586f837994/615935589047f98085c90963_arrow-down-1%201.svg"
+                    loading="lazy"
+                    style="
+                      -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
+                    "
+                    alt=""
+                    class="faq__arrow"
+                  />
+                </div>
+                <div data-w-id="1a81008d-0f15-30c3-8f4a-f33513fea544" class="faq__row">
+                  <div class="faq__left">
+                    <div class="faq__title">What programs will we collaborate in?</div>
+                    <div style="display: none" class="faq__answer">
+                      Task management in Trello & communication in Slack.
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.website-files.com/5837424ae11409586f837994/615935589047f98085c90963_arrow-down-1%201.svg"
+                    loading="lazy"
+                    style="
+                      -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
+                    "
+                    alt=""
+                    class="faq__arrow"
+                  />
+                </div>
+                <div data-w-id="c9b1f105-50eb-7aed-2e96-3ba9d79937e3" class="faq__row">
+                  <div class="faq__left">
+                    <div class="faq__title">How do I submit a request?</div>
+                    <div style="display: none" class="faq__answer">
+                      Prodjoy manages requests in Trello, a simple to use kanban board where we can track progress on
+                      requests. You can easily link any documentation to Trello to quickly create a request.
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.website-files.com/5837424ae11409586f837994/615935589047f98085c90963_arrow-down-1%201.svg"
+                    loading="lazy"
+                    style="
+                      -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
+                    "
+                    alt=""
+                    class="faq__arrow"
+                  />
+                </div>
+                <div data-w-id="c9b1f105-50eb-7aed-2e96-3ba9d79937ea" class="faq__row">
+                  <div class="faq__left">
+                    <div class="faq__title">What if I want to make changes to a deliverable??</div>
+                    <div style="display: none" class="faq__answer">
+                      No worries! We &#x27;ll continue to iterate on the deliverable until you &#x27;re 100% satisfied.
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.website-files.com/5837424ae11409586f837994/615935589047f98085c90963_arrow-down-1%201.svg"
+                    loading="lazy"
+                    style="
+                      -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
+                    "
+                    alt=""
+                    class="faq__arrow"
+                  />
+                </div>
+                <div data-w-id="c9b1f105-50eb-7aed-2e96-3ba9d79937f1" class="faq__row">
+                  <div class="faq__left">
+                    <div class="faq__title">What if I only have a single request?</div>
+                    <div style="display: none" class="faq__answer">
+                      That &#x27;s fine. You can pause your subscription when finished and return when you have
+                      additional product needs. There &#x27;s no need to let the remainder of your subscription go to
+                      waste.
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.website-files.com/5837424ae11409586f837994/615935589047f98085c90963_arrow-down-1%201.svg"
+                    loading="lazy"
+                    style="
+                      -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
+                    "
+                    alt=""
+                    class="faq__arrow"
+                  />
+                </div>
+                <div data-w-id="c9b1f105-50eb-7aed-2e96-3ba9d79937f8" class="faq__row">
+                  <div class="faq__left">
+                    <div class="faq__title">Are there any refunds if I don &#x27;t like the service?</div>
+                    <div style="display: none" class="faq__answer">
+                      Due to the high quality nature of the work, there will be no refunds issued.
+                    </div>
+                  </div>
+                  <img
+                    src="https://assets.website-files.com/5837424ae11409586f837994/615935589047f98085c90963_arrow-down-1%201.svg"
+                    loading="lazy"
+                    style="
+                      -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg)
+                        skew(0, 0);
+                      transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
+                    "
+                    alt=""
+                    class="faq__arrow"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="faqs"></section>
+        <section>
+          <h2>See if Prodjoy is right for you. (It totally is.)</h2>
+          <p class="lede">
+            Get a guided tour through Prodjoy, and find out how you and your team can change the way you deliver,
+            forever.
+          </p>
+          <div class="button">Get started</div>
+        </section>
+        <nav></nav>
+      </div>
+    </div>
+  </body>
+</html>

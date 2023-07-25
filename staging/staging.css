@@ -1,0 +1,158 @@
+:root {
+  --background-color: #fff;
+  --link-color: #f86;
+  --text-color: #111;
+  --title-color: #111;
+}
+
+/* cascade */
+
+blockquote {
+  border-left: 3px solid var(--title-color);
+  display: block;
+  margin: unset;
+  padding: 0 2rem;
+}
+
+li {
+  margin: 0 0 1rem;
+}
+li strong {
+  color: var(--title-color);
+}
+
+p {
+  margin: unset;
+}
+
+/* https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css/ */
+a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  color: var(--link-color);
+  text-decoration: none;
+  transition: background-size 0.5s cubic-bezier(0.1, 1, 0.3, 1);
+}
+a:focus,
+a:hover {
+  background-size: 100% 2px;
+}
+
+.External::after {
+  content: '↗';
+  margin-left: 0.2em;
+  vertical-align: middle;
+}
+
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+i {
+  text-align: center;
+  width: 1.2em;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+/* layout */
+
+.Center {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#gallery {
+  background: #fed;
+  display: flex;
+  gap: 1rem;
+  min-height: unset;
+  overflow: hidden;
+  padding: 2rem 0;
+}
+#gallery > * {
+  border-radius: 0.5rem;
+  flex: 1;
+  max-height: 15rem;
+}
+
+#logos {
+  background: #111;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  min-height: unset;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marquee {
+  animation: marquee 20s linear infinite;
+  display: flex;
+  gap: 4rem;
+  position: relative;
+  width: max-content;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+
+#usps {
+  text-align: center;
+}
+#usps svg {
+  font-size: 4rem;
+}
+
+.set {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.set > * {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 20rem;
+  gap: 2rem;
+  padding: 4rem 3rem;
+}
+
+.quote {
+  align-items: center;
+  background: #4bb1;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 4rem;
+  text-align: center;
+}
+.quote svg {
+  color: #4bb;
+  font-size: 3rem;
+}
+blockquote {
+  border: unset;
+  font-size: 20px;
+  padding: unset;
+}

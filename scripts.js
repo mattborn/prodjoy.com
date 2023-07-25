@@ -6,7 +6,7 @@ marked.use({
   mangle: false,
 })
 
-fetch('./faq.md')
+fetch('/faq.md')
   .then(response => response.text())
   .then(text => (g('faqs').innerHTML = marked.parse(text)))
 

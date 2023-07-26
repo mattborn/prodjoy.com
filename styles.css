@@ -96,6 +96,10 @@ section {
 
 /* pricing */
 
+#pricing {
+  background: #fed;
+}
+
 .smallcaps {
   font-size: 12px;
   font-weight: 700;
@@ -106,9 +110,13 @@ section {
 #plan-group {
   display: flex;
   flex-wrap: wrap;
+  gap: 1px;
+  margin: 0 auto;
+  max-width: 1024px;
 }
 .plan {
   align-items: flex-start;
+  background: #fff;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -117,9 +125,6 @@ section {
   position: relative;
   text-align: left;
 }
-.plan:last-child {
-  border-left: 1px solid #eee;
-}
 
 .badge {
   background: #07f;
@@ -127,7 +132,7 @@ section {
   color: #fff;
   font-size: 10px;
   font-weight: 700;
-  left: 0;
+  left: 1rem;
   letter-spacing: 0.1em;
   line-height: 16px;
   padding: 8px 12px;
@@ -142,6 +147,9 @@ h4 {
   letter-spacing: -0.03em;
   line-height: 2rem;
   margin: 0 0 8px;
+}
+small {
+  opacity: 0.5;
 }
 
 .actions {

@@ -1,43 +1,11 @@
-:root {
-  --background-color: #fff;
-  --link-color: #f86;
-  --text-color: #111;
-  --title-color: #111;
-}
-
 /* cascade */
 
-blockquote {
-  border-left: 3px solid var(--title-color);
-  display: block;
-  margin: unset;
-  padding: 0 2rem;
-}
-
 li {
-  margin: 0 0 1rem;
-}
-li strong {
-  color: var(--title-color);
+  margin: 0 0 8px;
 }
 
 p {
   margin: unset;
-}
-
-/* https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css/ */
-a {
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  color: var(--link-color);
-  text-decoration: none;
-  transition: background-size 0.5s cubic-bezier(0.1, 1, 0.3, 1);
-}
-a:focus,
-a:hover {
-  background-size: 100% 2px;
 }
 
 .External::after {
@@ -182,4 +150,71 @@ section {
 }
 h3 {
   margin: 0;
+}
+
+/* pricing */
+
+.smallcaps {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+#plan-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.plan {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: left;
+}
+
+.badge {
+  background: #000;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 16px;
+  padding: 8px 12px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.5rem;
+  letter-spacing: -0.03em;
+  line-height: 2rem;
+  margin: 0 0 8px;
+}
+
+.actions {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.button {
+  background: #000;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  padding: 24px;
+  text-decoration: none;
+}
+a {
+  color: inherit;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.fa-comments-alt {
+  font-size: 4rem;
 }

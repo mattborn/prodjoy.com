@@ -152,69 +152,12 @@ h3 {
   margin: 0;
 }
 
-/* pricing */
-
-.smallcaps {
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+.fa-circle-check {
+  color: #1c7;
 }
-
-#plan-group {
-  display: flex;
-  flex-wrap: wrap;
+.fa-circle-question {
+  color: #ec0;
 }
-.plan {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  gap: 2rem;
-  padding: 2rem;
-  text-align: left;
-}
-
-.badge {
-  background: #000;
-  border-radius: 6px;
-  color: #fff;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  line-height: 16px;
-  padding: 8px 12px;
-  text-transform: uppercase;
-}
-
-h4 {
-  font-size: 1.5rem;
-  letter-spacing: -0.03em;
-  line-height: 2rem;
-  margin: 0 0 8px;
-}
-
-.actions {
-  align-items: center;
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.button {
-  background: #000;
-  border-radius: 8px;
-  color: #fff;
-  font-weight: 700;
-  padding: 24px;
-  text-decoration: none;
-}
-a {
-  color: inherit;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-}
-
-.fa-comments-alt {
-  font-size: 4rem;
+.fa-close {
+  color: #f55;
 }

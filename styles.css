@@ -107,7 +107,7 @@ section {
   text-transform: uppercase;
 }
 
-#plan-group {
+#plans {
   display: flex;
   flex-wrap: wrap;
   gap: 1px;

@@ -66,6 +66,7 @@ section {
   align-items: center;
   background: #111;
   border-radius: 0.5rem;
+  box-shadow: 8px 8px 0 #0002;
   color: #fff;
   cursor: pointer;
   display: flex;
@@ -74,6 +75,11 @@ section {
   justify-content: center;
   padding: 1.5rem 4rem;
   text-decoration: none;
+  transition: 0.1s linear;
+}
+.button:hover {
+  box-shadow: 12px 12px 0 #0002;
+  transform: translateY(-8px);
 }
 .lede {
   font-size: 1.5rem;
@@ -161,7 +167,7 @@ small {
   align-self: stretch;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 1rem;
 }
 .plan .button {
   padding: 1.5rem;

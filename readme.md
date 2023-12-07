@@ -1,6 +1,6 @@
 # Prodjoy
 
-Bringing joy back to product, one iteration at a time.
+Bringing joy back to product, one test at a time.
 
 ## Who are we?
 

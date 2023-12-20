@@ -104,6 +104,48 @@ section {
   padding: 2rem;
 }
 
+/* services */
+
+#services {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+#services .services-header {
+  color: #000;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#services .services-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* In case you want to support responsiveness */
+}
+
+#services .services-column {
+  flex: 1; /* Makes the columns flexible */
+  min-width: 200px; /* Minimum width of columns, adjust as needed */
+  max-width: 33%; /* Maximum width of columns */
+}
+
+#services .services-item {
+  border-bottom: 1px solid #ff6347;
+  padding: 8px 0;
+  color: #ff6347;
+  margin: 8px 0;
+}
+
+#services .decorative-element {
+  background-image: url('path-to-decorative-element.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 50px;
+}
+
+
 /* pricing */
 
 #pricing {

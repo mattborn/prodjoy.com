@@ -146,6 +146,12 @@ section {
   margin: 30px 0;
 }
 
+.services-grid {
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 /* pricing */
 

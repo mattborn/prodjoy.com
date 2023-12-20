@@ -109,7 +109,7 @@ section {
 #services {
   max-width: 800px;
   margin: auto;
-  text-align: center;
+  text-align: left;
   font-family: 'Arial', sans-serif;
 }
 
@@ -134,7 +134,7 @@ section {
 .services-item {
   border-bottom: 6px solid #ff6347;
   padding: 8px 0;
-  color: #ff6347;
+  color: #000;
   margin: 8px 0;
 }
 

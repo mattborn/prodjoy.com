@@ -137,7 +137,13 @@ section {
   flex: 1; /* Makes the columns flexible */
   min-width: 200px; /* Minimum width of columns, adjust as needed */
   max-width: 33%; /* Maximum width of columns */
-  grid-column-gap: 30px;
+}
+
+.services-grid {
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .services-item {

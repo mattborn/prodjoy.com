@@ -132,17 +132,10 @@ section {
 }
 
 #services .services-item {
-  border-bottom: 1px solid #ff6347;
+  border-bottom: 6px solid #ff6347;
   padding: 8px 0;
   color: #ff6347;
   margin: 8px 0;
-}
-
-#services .decorative-element {
-  background-image: url('path-to-decorative-element.png');
-  background-repeat: no-repeat;
-  background-position: left center;
-  padding-left: 50px;
 }
 
 

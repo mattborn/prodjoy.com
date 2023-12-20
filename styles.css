@@ -122,7 +122,7 @@ section {
 
 .services-section {
   border: 6px solid #ffeedd; /* Adjust the color and size as needed */
-  padding: 20px; /* Adjust the padding as needed */
+  padding: 50px; /* Adjust the padding as needed */
   margin: 20px auto; /* Centers the box and adds margin */
   max-width: 1200px; /* Adjust the width as needed */
 }

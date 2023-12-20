@@ -124,26 +124,19 @@ section {
   border: 6px solid #ffeedd; /* Adjust the color and size as needed */
   padding: 50px; /* Adjust the padding as needed */
   margin: 20px auto; /* Centers the box and adds margin */
-  max-width: 1200px; /* Adjust the width as needed */
 }
 
 .services-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap; /* In case you want to support responsiveness */
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .services-column {
   flex: 1; /* Makes the columns flexible */
   min-width: 200px; /* Minimum width of columns, adjust as needed */
   max-width: 33%; /* Maximum width of columns */
-}
-
-.services-grid {
-    grid-column-gap: 30px;
-    grid-row-gap: 0px;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .services-item {

@@ -115,8 +115,9 @@ section {
 
 .services-header {
   color: #000;
-  font-size: 36px;
+  font-size: 4rem;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .services-section {

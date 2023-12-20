@@ -113,17 +113,17 @@ section {
   font-family: 'Arial', sans-serif;
 }
 
+.services-header {
+  color: #000;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
 .services-section {
   border: 2px solid #000; /* Adjust the color and size as needed */
   padding: 20px; /* Adjust the padding as needed */
   margin: 20px auto; /* Centers the box and adds margin */
   max-width: 1200px; /* Adjust the width as needed */
-}
-
-.services-header {
-  color: #000;
-  font-size: 36px;
-  margin-bottom: 20px;
 }
 
 .services-list {

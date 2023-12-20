@@ -121,7 +121,7 @@ section {
 }
 
 .services-section {
-  border: 2px solid #000; /* Adjust the color and size as needed */
+  border: 6px solid #ffeedd; /* Adjust the color and size as needed */
   padding: 20px; /* Adjust the padding as needed */
   margin: 20px auto; /* Centers the box and adds margin */
   max-width: 1200px; /* Adjust the width as needed */
@@ -137,6 +137,7 @@ section {
   flex: 1; /* Makes the columns flexible */
   min-width: 200px; /* Minimum width of columns, adjust as needed */
   max-width: 33%; /* Maximum width of columns */
+  grid-column-gap: 30px;
 }
 
 .services-item {

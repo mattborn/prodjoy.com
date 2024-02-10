@@ -1,4 +1,4 @@
-ce<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
 <!-- Google tag (gtag.js) -->
@@ -21,6 +21,28 @@ ce<!DOCTYPE html>
     <script defer src="https://unpkg.com/marked/marked.min.js"></script>
     <script defer src="https://unpkg.com/scrollreveal@4.0.7"></script>
     <script defer src="scripts.js"></script>
+    <style>
+      .logo-scroll-container {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        padding: 20px 0;
+      }
+      .logo-scroll {
+        display: flex;
+        animation: scroll linear infinite;
+        animation-duration: 30s;
+      }
+      .logo-scroll img {
+        height: 100px; /* Adjust based on your preference */
+        margin-right: 50px; /* Space between logos */
+      }
+      @keyframes scroll {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+      }
+   </style>
   </head>
   <body>
     <section id="intro">
@@ -35,6 +57,21 @@ ce<!DOCTYPE html>
         <p>Deliver 🥰 to your users & your bottom line.</p>
       </div>
     </section>
+    <div class="logo-scroll-container">
+      <div class="logo-scroll">
+        <img src="https://cdn.freebiesupply.com/logos/large/2x/airbnb-2-logo-png-transparent.png" alt="Logo 1"> <!-- Replace with your logos -->
+        <img src="https://heathandalyssa.com/wp-content/uploads/2017/12/outdoorsy-logo-black.png" alt="Logo 2"> <!-- Add more logos as needed -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="Logo 3">
+        <img src="https://1000logos.net/wp-content/uploads/2022/08/Hopin-Logo-2019.png" alt="Logo 4">
+        <img src="https://seeklogo.com/images/T/thumbtack-logo-8D06EC40F6-seeklogo.com.png" alt="Logo 5">
+        <!-- Repeat logos for continuous loop effect -->
+        <img src="https://cdn.freebiesupply.com/logos/large/2x/airbnb-2-logo-png-transparent.png" alt="Logo 1"> <!-- Replace with your logos -->
+        <img src="https://heathandalyssa.com/wp-content/uploads/2017/12/outdoorsy-logo-black.png" alt="Logo 2"> <!-- Add more logos as needed -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="Logo 3">
+        <img src="https://1000logos.net/wp-content/uploads/2022/08/Hopin-Logo-2019.png" alt="Logo 4">
+        <img src="https://seeklogo.com/images/T/thumbtack-logo-8D06EC40F6-seeklogo.com.png" alt="Logo 5">
+      </div>
+    </div>
     <section id="usps">
       <h2>10+ years of Silicon Valley marketplace experience</h2>
       <p class="lede">For a fraction of the cost.</p>
@@ -134,7 +171,7 @@ ce<!DOCTYPE html>
               <li>User experience optimization</li>
               <li>Feature prioritization and roadmapping</li>
               <li>Agile process implementation and coaching</li>
-              <li>Team mentorship and development</li>
+              <li>Team mentorship & development</li>
               <li>Pause or cancel anytime</li>
             </ul>
           </div>

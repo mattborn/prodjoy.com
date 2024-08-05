@@ -166,7 +166,6 @@ section {
 }
 
 /* plans */
-
 #plans {
   display: flex;
   flex-wrap: wrap;
@@ -180,16 +179,15 @@ section {
   flex-direction: column;
   justify-content: space-between;
   background: #fff;
-  flex: 1 0 30%; /* Adjusted flex-basis to 30% to allow three plans to fit in one row */
+  flex: 1 0 30%;
   padding: 2rem;
   position: relative;
   text-align: left;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box; /* Ensures padding is included in the total height */
+  box-sizing: border-box;
 }
-
 
 .badge {
   background: #07f;
@@ -223,9 +221,10 @@ small {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
+
 .actions {
   text-align: center;
-  margin-top: auto; /* Pushes the button to the bottom */
+  margin-top: auto;
   width: 100%;
 }
 
@@ -249,7 +248,6 @@ a {
 .fa-comments-alt {
   font-size: 4rem;
 }
-
 /* footer */
 
 footer {

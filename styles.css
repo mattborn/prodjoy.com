@@ -218,6 +218,11 @@ small {
   opacity: 0.5;
 }
 
+.plan > div > b {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
 .actions {
   text-align: center;
   margin-top: auto; /* Pushes the button to the bottom */

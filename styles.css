@@ -181,15 +181,15 @@ section {
   justify-content: space-between;
   align-items: flex-start;
   background: #fff;
-  flex: 1 0 15rem;
-  gap: 2rem;
+  flex: 1 0 30%;  /* Adjusted flex-basis to 30% to allow three plans to fit in one row */
   padding: 2rem;
   position: relative;
   text-align: left;
   height: 100%; /* Ensures the container takes the full height */
-  border: 1px solid #ccc; /* Ensure a border to separate the plan boxes */
-  border-radius: 5px; /* Add border-radius to make it consistent with the design */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visual separation */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Ensures padding is included in the total height */
 }
 
 .badge {

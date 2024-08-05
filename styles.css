@@ -187,6 +187,9 @@ section {
   position: relative;
   text-align: left;
   height: 100%; /* Ensures the container takes the full height */
+  border: 1px solid #ccc; /* Ensure a border to separate the plan boxes */
+  border-radius: 5px; /* Add border-radius to make it consistent with the design */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visual separation */
 }
 
 .badge {
@@ -197,50 +200,8 @@ section {
   font-weight: 700;
   left: 1rem;
   letter-spacing: 0.1em;
-  line-height: 16px;
-  padding: 8px 12px;
-  position: absolute;
-  text-transform: uppercase;
-  top: -1rem;
-  transform: rotate(-3deg);
-}
+  line-he
 
-h4 {
-  font-size: 1.5rem;
-  letter-spacing: -0.03em;
-  line-height: 2rem;
-  margin: 0 0 8px;
-}
-
-small {
-  opacity: 0.5;
-}
-
-.actions {
-  text-align: center;
-  margin-top: auto; /* Pushes the button to the bottom */
-}
-
-.plan .button {
-  display: inline-block;
-  text-decoration: none;
-  background-color: black;
-  color: white;
-  padding: 1.5rem;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  width: 100%;
-}
-
-a {
-  color: inherit;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-}
-
-.fa-comments-alt {
-  font-size: 4rem;
-}
 
 
 /* footer */

@@ -179,18 +179,17 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
   background: #fff;
-  flex: 1 0 30%;  /* Adjusted flex-basis to 30% to allow three plans to fit in one row */
+  flex: 1 0 30%; /* Adjusted flex-basis to 30% to allow three plans to fit in one row */
   padding: 2rem;
   position: relative;
   text-align: left;
-  height: 100%; /* Ensures the container takes the full height */
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   box-sizing: border-box; /* Ensures padding is included in the total height */
 }
+
 
 .badge {
   background: #07f;
@@ -200,9 +199,51 @@ section {
   font-weight: 700;
   left: 1rem;
   letter-spacing: 0.1em;
-  line-he
+  line-height: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  text-transform: uppercase;
+  top: -1rem;
+  transform: rotate(-3deg);
+}
 
+h4 {
+  font-size: 1.5rem;
+  letter-spacing: -0.03em;
+  line-height: 2rem;
+  margin: 0 0 8px;
+}
 
+small {
+  opacity: 0.5;
+}
+
+.actions {
+  text-align: center;
+  margin-top: auto; /* Pushes the button to the bottom */
+  width: 100%;
+}
+
+.plan .button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.fa-comments-alt {
+  font-size: 4rem;
+}
 
 /* footer */
 

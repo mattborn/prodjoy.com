@@ -247,7 +247,14 @@ a {
 
 .fa-comments-alt {
   font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem; /* Adjust as needed for spacing */
 }
+
+plan h4 + .fa-comments-alt {
+  margin-top: 0.5rem; /* Adjust as needed for spacing */
+}
+
 /* footer */
 
 footer {

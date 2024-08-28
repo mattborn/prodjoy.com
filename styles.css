@@ -9,7 +9,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   background: #fff;
-  color: #111;
+  color: #373D3F;
   font: 100%/1.5 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   margin: 0;
   text-rendering: geometricPrecision;
@@ -64,7 +64,7 @@ section {
 }
 .button {
   align-items: center;
-  background: #111;
+  background: #FF4F4F;
   border-radius: 0.5rem;
   box-shadow: 8px 8px 0 #0002;
   color: #fff;

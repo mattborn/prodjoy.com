@@ -231,7 +231,7 @@ small {
 .plan .button {
   display: inline-block;
   text-decoration: none;
-  background-color: black;
+  background-color: #FF4F4F;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
